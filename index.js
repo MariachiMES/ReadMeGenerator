@@ -1,7 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-// const util = require("util");
-// const writeFileAsync = util.promisify(fs.writeFile);
+
 inquirer
   .prompt([
     {
@@ -26,6 +25,11 @@ inquirer
     },
     {
       type: "input",
+      message: "Please enter usage information:",
+      name: "usage",
+    },
+    {
+      type: "input",
       message: "Please enter test instructions:",
       name: "test",
     },
@@ -45,11 +49,9 @@ inquirer
     },
   ])
 
-  //   .then((response) => JSON.stringify(response, null, "\t"))
   .then((response) => writeNewReadMe(response));
 
 var writeNewReadMe = function (response) {
-  console.log(response);
   fs.writeFile("README.md", writeReadMe(response), (err) =>
     err ? console.error(err) : console.log("successfully written README.md!")
   );
@@ -67,18 +69,28 @@ const writeReadMe = function (response) {
   ${response.description}
   
   ## Table of Contents
-  
-  
-  ## Installation
+
+* [Installation](Instsallation)
+
+*  [Usage](Usage)
+
+* [Contributions](Contributions)
+
+* [Tests](Tests)
+
+* [Questions](Questions)
+<br>
+
+## <a name = "Installation">Installation</a>
   ${response.installation}
-  ## Usage
-  // ${response.usage}
+  ## <a name = "Usage">Usage</a>
+  ${response.usage}
   
-  ## Contributing
+  ## <a name = "Contributions">Contributing</a>
   ${response.contribution}
-  ## Tests
+  ## <a name = "Tests">Tests</a>
   ${response.test}
   
-  ## Questions`;
+  ## <a name = "Questions">Questions</a>`;
   return readMe;
 };
