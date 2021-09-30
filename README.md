@@ -1,47 +1,46 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-  # dfwef
+  # High Quality README Generator
   
   
   
   # Description
   
-  wefwe
+  a node js application for generating a readme file in markdown.  
   
   ## Table of Contents
 
-* [Installation](##Instsallation)
+*  [Installation](#installation)
 
-*  [Usage](#Usage)
+*  [Usage](#usage)
 
-* [Contributions](#Contributions)
+*  [Tests](#tests)
 
-* [Tests](#Tests)
+*  [Contributions](#contributions)
 
-* [Contributions](#Contributions)
+*  [Features](#features)
 
-* [Features](#Features)
-
-* [Questions](##Questions)
+*  [Questions](#questions)
 
 
 ## Installation
-  fwefwef
+  install inquirer 
 ## Usage
-  efwefw
+  Used for creating a high quality readme file; requires inquirer for full functionality
   
 ## Credits
-  wefwefwefw
+  David Ortiz
 ## Tests
-  efwefwe
+  none
 
-## Contribution
-  undefined
+## Contributions
+  none
   
 ## Features
-  wefwef
+  Utilizes node js/javascript/inquirer fo the automatic generation of readme file
   
 ## Questions
-  [GitHub](https://github.com/mariahiMES)
+
+  [GitHub](https://github.com/mariachiMES)
 
   Additional questions: [E-Mail](mailto:davidjortizmusic@gmail.com)

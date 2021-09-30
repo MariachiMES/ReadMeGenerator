@@ -85,19 +85,17 @@ const writeReadMe = function (response) {
   
   ## Table of Contents
 
-* [Installation](##Instsallation)
+*  [Installation](#installation)
 
-*  [Usage](#Usage)
+*  [Usage](#usage)
 
-* [Contributions](#Contributions)
+*  [Tests](#tests)
 
-* [Tests](#Tests)
+*  [Contributions](#contributions)
 
-* [Contributions](#Contributions)
+*  [Features](#features)
 
-* [Features](#Features)
-
-* [Questions](##Questions)
+*  [Questions](#questions)
 
 
 ## Installation
@@ -110,13 +108,14 @@ const writeReadMe = function (response) {
 ## Tests
   ${response.test}
 
-## Contribution
-  ${response.Contribution}
+## Contributions
+  ${response.contribution}
   
 ## Features
   ${response.features}
   
 ## Questions
+
   [GitHub](https://github.com/${response.github})
 
   Additional questions: [E-Mail](mailto:${response.email})`;
