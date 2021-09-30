@@ -44,3 +44,5 @@
   [GitHub](https://github.com/mariachiMES)
 
   Additional questions: [E-Mail](mailto:davidjortizmusic@gmail.com)
+  
+  [Walkthrough Video](https://watch.screencastify.com/v/FQYDDNCDQTnJc5uuoN9D)
