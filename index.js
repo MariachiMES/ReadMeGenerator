@@ -20,8 +20,8 @@ inquirer
     },
     {
       type: "input",
-      message: "Please enter the contribution guidelines:",
-      name: "contribution",
+      message: "Please enter the credits:",
+      name: "credits",
     },
     {
       type: "input",
@@ -34,18 +34,33 @@ inquirer
       name: "test",
     },
     {
+      type: "input",
+      message: "Please enter the contribution guidelines:",
+      name: "contribution",
+    },
+    {
+      type: "input",
+      message: "List features here:",
+      name: "features",
+    },
+    {
+      type: "input",
+      message: "Enter your gitHub username:",
+      name: "github",
+    },
+    {
+      type: "input",
+      message: "Enter your email address:",
+      name: "email",
+    },
+    {
       type: "checkbox",
       message: "Plese select a license from the options:",
       name: "license",
       pageSize: 4,
       highlight: true,
       searchable: true,
-      choices: [
-        "MIT",
-        "Apache Licesnse 2.0",
-        "GNU General Public License v3.0",
-        "BSD 2-Clause 'Simplified' License",
-      ],
+      choices: ["MIT", "Apache", "GNU", "BSD"],
     },
   ])
 
@@ -64,33 +79,42 @@ const writeReadMe = function (response) {
   
   
   
-  ## Description
+  # Description
   
   ${response.description}
   
   ## Table of Contents
 
-* [Installation](Instsallation)
+* [Installation](#Instsallation)
 
-*  [Usage](Usage)
+*  [Usage](#Usage)
 
-* [Contributions](Contributions)
+* [Contributions](#Contributions)
 
-* [Tests](Tests)
+* [Tests](#Tests)
 
-* [Questions](Questions)
-<br>
+* [Questions](#Questions)
 
-## <a name = "Installation">Installation</a>
+
+## Installation
   ${response.installation}
-  ## <a name = "Usage">Usage</a>
+## Usage
   ${response.usage}
   
-  ## <a name = "Contributions">Contributing</a>
-  ${response.contribution}
-  ## <a name = "Tests">Tests</a>
+## Credits
+  ${response.credits}
+## Tests
   ${response.test}
+
+## Contribution
+  ${response.Contribution}
   
-  ## <a name = "Questions">Questions</a>`;
+## Features
+  ${response.features}
+  
+## Questions
+  [GitHub](https://github.com/${response.github})
+
+  Additional questions: [E-Mail](mailto:${response.email})`;
   return readMe;
 };
