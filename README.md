@@ -1,6 +1,6 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-  # dfef
+  # dfwef
   
   
   
@@ -10,7 +10,7 @@
   
   ## Table of Contents
 
-* [Installation](#Instsallation)
+* [Installation](##Instsallation)
 
 *  [Usage](#Usage)
 
@@ -18,26 +18,30 @@
 
 * [Tests](#Tests)
 
-* [Questions](#Questions)
+* [Contributions](#Contributions)
+
+* [Features](#Features)
+
+* [Questions](##Questions)
 
 
 ## Installation
-  fwefw
+  fwefwef
 ## Usage
   efwefw
   
 ## Credits
-  efwefwefwfw
+  wefwefwefw
 ## Tests
-  efwef
+  efwefwe
 
 ## Contribution
   undefined
   
 ## Features
-  wefwefwef
+  wefwef
   
 ## Questions
-  [GitHub](https://github.com/mariachiMES)
+  [GitHub](https://github.com/mariahiMES)
 
   Additional questions: [E-Mail](mailto:davidjortizmusic@gmail.com)

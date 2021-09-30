@@ -85,7 +85,7 @@ const writeReadMe = function (response) {
   
   ## Table of Contents
 
-* [Installation](#Instsallation)
+* [Installation](##Instsallation)
 
 *  [Usage](#Usage)
 
@@ -93,7 +93,11 @@ const writeReadMe = function (response) {
 
 * [Tests](#Tests)
 
-* [Questions](#Questions)
+* [Contributions](#Contributions)
+
+* [Features](#Features)
+
+* [Questions](##Questions)
 
 
 ## Installation
